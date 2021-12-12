@@ -1,0 +1,132 @@
+body{
+	margin: 0 auto;
+}
+
+header {
+	background-color: #007765;
+	margin: 0 auto;
+	padding: 17px;
+}
+.flex {
+	display: flex;
+	justify-content:space-around;
+}
+.logo { 
+	display:flex;
+ }
+a {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 20;
+	padding: 5px;
+}
+.a1,
+.a2 {
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-right-width: 1px;
+}
+.background1 {
+	background-image: url(img/background1.jpg); 
+	background-size: cover;
+	width: 100%;
+	height: 403px;
+}
+.text_style {
+	display: flex;
+	justify-content: center;
+}
+.background_for_text1 {
+	background-color: #EEEEEE;
+	width: 100%;
+	padding-bottom: 49px;
+	padding-top: 10px;
+}
+.text_background{
+	color: #fff;
+	padding-top: 170px;
+	font-family: Roboto;
+	font-size: 69px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	color: #007765;
+	font-family: Roboto;
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+.article1,
+.article3 {
+	border: 1px solid none;
+	padding: 0px 280px 5px 280px;
+}
+.background_for_text {
+	background-color: #EEEEEE;
+	width: 100%;
+	padding-top: 20px;
+}
+.background2 {
+	background-image: url(img/background2.jpg); 
+	background-size: cover;
+	width: 100%;
+	height: 483px;
+}
+.text_on_the_photo {
+	border: 1px solid none;
+	padding: 170px 460px;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+}
+.article3{
+	background-color: #FFFFFF;
+	padding-bottom: 30px;
+}
+.background_for_text {
+	background-color: #EEEEEE ;
+	width: 100%;
+	padding-bottom: 35px;
+	padding-top: 0px;
+}
+.row {
+	display:flex;
+	justify-content: center;
+}
+.name {
+	color: #007765;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	display: flex;
+	justify-content: center;
+}
+.position{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: italic;
+	display: flex;
+	justify-content: center;
+}
+.row_style {
+	padding: 0px 35px 35px 35px;	
+}
+footer {
+	background-color: #333333;
+	margin: 0 auto;
+}
+.footer-text {
+	font-family: Roboto; 
+	color: #fff;
+	font-size: 18px;
+	border: 1px solid #fff;
+	padding: 30px 500px; 
+	display: flex;
+	justify-content: center;
+}
